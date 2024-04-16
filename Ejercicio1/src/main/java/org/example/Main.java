@@ -44,7 +44,7 @@ public class Main {
         */
 
         /*EJERCICIOS ESTRUCTURAS*/
-        /*Ejercicio1
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el precio de costo del producto: $");
         double precioPrducto = sc.nextDouble();
@@ -52,18 +52,15 @@ public class Main {
         int fabrica = sc.nextInt();
         switch (fabrica) {
             case 1:
-                double costoTotal1 = precioPrducto * 1.07;
-                double ganancia1 = costoTotal1 * 1.25;
+                double ganancia1 = precioPrducto * 1.07 * 1.25;
                 System.out.print("El precio de venta es: $" + ganancia1);
                 break;
             case 2:
-                double costoTotal2 = precioPrducto * 1.15;
-                double ganancia2 = costoTotal2 * 1.25;
+                double ganancia2 = precioPrducto * 1.15 * 1.25;
                 System.out.print("El precio de venta es: $" + ganancia2);
                 break;
             case 3:
-                double costoTotal3 = precioPrducto * 1.22;
-                double ganancia3 = costoTotal3 * 1.25;
+                double ganancia3 = precioPrducto * 1.22 * 1.25;
                 System.out.print("El precio de venta es: $" + ganancia3);
                 break;
             default: System.out.print("No ingresó un número de fábrica correcto");
