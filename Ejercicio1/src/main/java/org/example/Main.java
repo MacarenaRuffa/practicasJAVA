@@ -21,7 +21,8 @@ public class Main {
         String direccion;
         boolean licenciaDeConducir;
         double estaturaDeLaPersona;
-        int cantidadDeHijos;*/
+        int cantidadDeHijos;
+        */
 
         /*Ejercicio3
         Scanner sc = new Scanner(System.in);
@@ -29,7 +30,7 @@ public class Main {
 		int cantDias = sc.nextInt();
 		System.out.print("El monto total es: $" + cantDias*2);
 		sc.close();
-         */
+        */
 
         /*Ejercicio4
         Scanner sc = new Scanner(System.in);
@@ -39,7 +40,8 @@ public class Main {
         DecimalFormat formato = new DecimalFormat("#,##0.00");
         String montoNetoFormateado = formato.format(montoNeto);
         System.out.print("El monto neto que le corresponde es: $" + montoNetoFormateado);
-        sc.close();*/
+        sc.close();
+        */
 
         /*EJERCICIOS ESTRUCTURAS*/
         /*Ejercicio1
