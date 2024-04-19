@@ -1,11 +1,11 @@
 package org.example;
 
-import java.util.Scanner;
+import java.util.*;
 import java.text.DecimalFormat;
 
 public class Main {
     public static void main(String[] args) {
-        /*EJERCICIOS VARIABLES*/
+        //EJERCICIOS VARIABLES
         /*Ejercicio1
         String apellido = "Gomez";
         int edad = 35;
@@ -43,7 +43,7 @@ public class Main {
         sc.close();
         */
 
-        /*EJERCICIOS ESTRUCTURAS*/
+        //EJERCICIOS ESTRUCTURAS
         /*
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el precio de costo del producto: $");
@@ -174,6 +174,35 @@ public class Main {
 
         System.out.println("La menor temperatura fue " + minTemp + " °C en " + ciudadMinTemp);
         System.out.println("La mayor temperatura fue " + maxTemp + " °C en " + ciudadMaxTemp);
+        */
+
+        //EJERCICIO ESTRUCTURAS DINAMICAS
+        /* Ejercicio SaveTheRopa
+        HashMap<Integer, HashMap<String, String>> listaGuardados = new HashMap<>();
+
+        HashMap<String, String> prenda1 = new HashMap<>();
+        prenda1.put("campera Adidas", "negra");
+        listaGuardados.put(1, prenda1);
+
+        HashMap<String, String> prenda2 = new HashMap<>();
+        prenda2.put("pantalon Nike", "verde");
+        listaGuardados.put(2, prenda2);
+
+        HashMap<String, String> prenda3 = new HashMap<>();
+        prenda3.put("campera Puma", "dorada");
+        listaGuardados.put(3, prenda3);
+
+        for (Map.Entry<Integer, HashMap<String, String>> salida : listaGuardados.entrySet()) {
+            Integer numero = salida.getKey();
+            HashMap<String, String> prendas = salida.getValue();
+            System.out.print("El número es " + numero + " y su prenda es ");
+            for (Map.Entry<String, String> prenda : prendas.entrySet()) {
+                String marca = prenda.getKey();
+                String color = prenda.getValue();
+                System.out.print(marca + ", " + color);
+            }
+            System.out.println();
+        }
         */
     }
 }
