@@ -8,7 +8,10 @@ public class Categoria {
     private String descripcion;
     private List<Inscripcion> inscriptos;
 
-    public Categoria(String id, String nombre, String descripcion, List<Inscripcion> inscriptos) {
+    public Categoria(String id,
+                     String nombre,
+                     String descripcion,
+                     List<Inscripcion> inscriptos) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
@@ -38,7 +41,9 @@ public class Categoria {
     public void mostrarInscriptos() {
         System.out.println("Inscriptos en la categoría " + nombre + ":");
         for (Inscripcion inscripcion : inscriptos) {
-            System.out.println(inscripcion.getParticipante().getNombre() + " " + inscripcion.getParticipante().getApellido() + " - Monto: $" + inscripcion.getMonto());
+            System.out.println(inscripcion.getParticipante().getNombre() + " " +
+                    inscripcion.getParticipante().getApellido() + " - Monto: $" +
+                    inscripcion.getMonto());
         }
     }
 }

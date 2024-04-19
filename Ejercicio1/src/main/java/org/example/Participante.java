@@ -10,8 +10,14 @@ public class Participante {
     private String numeroEmergencia;
     private String grupoSanguineo;
 
-    public Participante(String numero, String dni, String nombre, String apellido, int edad, String celular,
-                        String numeroEmergencia, String grupoSanguineo) {
+    public Participante(String numero,
+                        String dni,
+                        String nombre,
+                        String apellido,
+                        int edad,
+                        String celular,
+                        String numeroEmergencia,
+                        String grupoSanguineo) {
         this.numero = numero;
         this.dni = dni;
         this.nombre = nombre;
