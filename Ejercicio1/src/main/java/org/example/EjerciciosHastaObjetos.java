@@ -1,9 +1,6 @@
 package org.example;
 
-import java.util.*;
-import java.text.DecimalFormat;
-
-public class Main {
+public class EjerciciosHastaObjetos {
     public static void main(String[] args) {
         //EJERCICIOS VARIABLES
         /*Ejercicio1
