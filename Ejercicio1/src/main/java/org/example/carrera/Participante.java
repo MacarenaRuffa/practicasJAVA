@@ -1,4 +1,4 @@
-package org.example;
+package org.example.carrera;
 
 public class Participante {
     private String numero;
