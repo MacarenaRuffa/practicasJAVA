@@ -38,3 +38,17 @@ _
 ,src/main/java/org/example/practica3/App.java,f\a\faf83982d81d89789336cc7950668431c13c908e
 g
 7src/main/java/org/example/practicaMascotas/Mascota.java,f\a\fa18a487d75160388fdaef004a05b636d9937a15
+_
+/src/main/java/org/example/exceptions/Juego.java,7\0\70d67d6b0f8628bd0ff6f43b000e2f9c7280fdc9
+`
+0src/main/java/org/example/exceptions/Matriz.java,9\d\9d3eeeb99c7962da63e01dab9cdefc4b2d9734d8
+a
+1src/main/java/org/example/exceptions/Archivo.java,d\a\da3a9ca62d865a66df05120000621e514494fbd0
+e
+5src/main/java/org/example/practicaAlumnos/Alumno.java,d\4\d48b2644e9bcc81c420bcdfa48710398fcd9cfa9
+b
+2src/main/java/org/example/practicaAlumnos/App.java,d\5\d5fea5fba540c9fd02142675fb72162448e0318a
+g
+7src/main/java/org/example/practicaPersonas/Persona.java,2\0\20c7ce6f42d932f18e75febec03df818602abd4c
+c
+3src/main/java/org/example/practicaPersonas/App.java,b\e\befdc3411df9603e31c065c96043fb33c6f23748
