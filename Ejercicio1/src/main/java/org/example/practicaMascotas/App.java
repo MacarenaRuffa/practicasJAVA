@@ -1,4 +1,4 @@
-package org.example.practica3;
+package org.example.practicaMascotas;
 
 public class App {
     public static void main(String[] args) {

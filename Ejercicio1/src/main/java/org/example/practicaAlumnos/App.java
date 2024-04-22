@@ -1,4 +1,4 @@
-package org.example.practica2;
+package org.example.practicaAlumnos;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package org.example.practica1;
+package org.example.practicaPersonas;
 
 public class Persona {
     private String dni;

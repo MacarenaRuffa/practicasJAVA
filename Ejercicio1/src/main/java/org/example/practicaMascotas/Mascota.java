@@ -1,6 +1,4 @@
-package org.example.practica3;
-
-import java.util.*;
+package org.example.practicaMascotas;
 
 public class Mascota {
     String nombre;

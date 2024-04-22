@@ -36,3 +36,5 @@ _
 0src/main/java/org/example/practica3/Mascota.java,b\a\ba3026898ecebc302fefa2a8f878b13859ef4cae
 \
 ,src/main/java/org/example/practica3/App.java,f\a\faf83982d81d89789336cc7950668431c13c908e
+g
+7src/main/java/org/example/practicaMascotas/Mascota.java,f\a\fa18a487d75160388fdaef004a05b636d9937a15
