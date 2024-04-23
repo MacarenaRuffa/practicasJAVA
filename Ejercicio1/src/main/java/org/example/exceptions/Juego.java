@@ -28,6 +28,7 @@ public class Juego {
         int intentos = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bienvenido al juego de adivinanza de números!");
+        System.out.println(numeroAdivinar);
 
         // Bucle principal del juego
         while (true) {
@@ -61,6 +62,10 @@ public class Juego {
 
 // Excepción personalizada para números fuera de rango
 class NumeroFueraDeRangoException extends Exception {
+    public NumeroFueraDeRangoException() {
+
+    }
+
     public NumeroFueraDeRangoException(String message) {
         super(message);
     }
