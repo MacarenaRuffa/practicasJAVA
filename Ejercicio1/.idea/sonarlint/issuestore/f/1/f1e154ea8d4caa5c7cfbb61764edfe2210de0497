@@ -1,0 +1,16 @@
+
+‰	java:S107
+"BConstructor has 10 parameters, which is greater than 7 authorized.(Å•¸®ûÿÿÿÿ8·Ç§ñ1J$628da719-9913-4af9-86fb-26e5e29f5d4a
+m	java:S106!"+Replace this use of System.out by a logger.(î¦Ê­8»Ç§ñ1J$925a248c-106a-435e-87c6-bfb866ac7cbc
+r	java:S106""+Replace this use of System.out by a logger.(œ½ÏÃûÿÿÿÿ8¼Ç§ñ1J$3e7b63e7-d225-42b1-8cf6-12734b7c78ae
+m	java:S106#"+Replace this use of System.out by a logger.(÷‰îş8¼Ç§ñ1J$0f79dec1-f887-472f-82f8-26fe1cc562b3
+m	java:S106$"+Replace this use of System.out by a logger.(×©¹”8Ğ®³ñ1J$0a7f221b-2d51-45c5-8d7a-dd47f4579079
+r	java:S106%"+Replace this use of System.out by a logger.(ı˜’ôùÿÿÿÿ8Ğ®³ñ1J$98b183a8-4bc0-4c5d-8f30-393452810c5b
+r	java:S106&"+Replace this use of System.out by a logger.(¾ºôÎüÿÿÿÿ8Ğ®³ñ1J$cdaad958-7bfc-4e13-be21-501c5a351dd5
+r	java:S106'"+Replace this use of System.out by a logger.(öâÿ±øÿÿÿÿ8Ğ®³ñ1J$f8be2e33-4fb6-4c9e-8164-c3f4cbd5a6f8
+m	java:S106("+Replace this use of System.out by a logger.(¾ü¤à8Ğ®³ñ1J$d44219df-d76f-48a8-b478-79b0f151db99
+r	java:S106)"+Replace this use of System.out by a logger.(»Ÿğùÿÿÿÿ8Ğ®³ñ1J$0886b00b-2735-4e20-b5ac-671f4217ec99
+r	java:S106*"+Replace this use of System.out by a logger.(É›Æ¢ûÿÿÿÿ8Ñ®³ñ1J$5b7d20b9-343a-45bd-860e-2226e2c64b43
+m	java:S1060"+Replace this use of System.out by a logger.(¬ œİ8Ò®³ñ1J$6e570aa9-b5bf-4b15-b9c3-f09c0141e53f
+r	java:S1065"+Replace this use of System.out by a logger.(äò¦Ãÿÿÿÿÿ8Ô®³ñ1J$d76bea4f-c9d7-428a-bc02-ed7753c318c3
+r	java:S106:"+Replace this use of System.out by a logger.(¾ªüÿÿÿÿ8Ô®³ñ1J$e8797102-b466-42b6-817e-8b896657992c
