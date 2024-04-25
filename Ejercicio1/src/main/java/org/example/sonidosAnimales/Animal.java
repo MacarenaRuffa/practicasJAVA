@@ -1,6 +1,10 @@
 package org.example.sonidosAnimales;
 
 abstract class Animal {
+
+    public Animal() {
+    }
+
     abstract void emitirSonido();
 
     // Método para comer cualquier tipo de animal

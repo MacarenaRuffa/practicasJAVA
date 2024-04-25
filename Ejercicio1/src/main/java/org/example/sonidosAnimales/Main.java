@@ -8,7 +8,6 @@ public class Main {
         Gato gato = new Gato();
         Vaca vaca = new Vaca();
 
-        // Invocación de métodos
         perro.emitirSonido();
         perro.comerCarne();
 

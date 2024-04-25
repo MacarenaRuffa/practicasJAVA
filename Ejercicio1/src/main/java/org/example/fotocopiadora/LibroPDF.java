@@ -6,8 +6,7 @@ class LibroPDF extends Documento {
     private String genero;
     private int cantidadPaginas;
 
-    public LibroPDF(String id_documento) {
-        super(id_documento);
+    public LibroPDF() {
     }
 
     public LibroPDF(String id_documento, String titulo, String autor, String genero, int cantidadPaginas) {

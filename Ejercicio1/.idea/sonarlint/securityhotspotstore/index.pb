@@ -78,8 +78,6 @@ c
 3src/main/java/org/example/sonidosAnimales/Main.java,6\3\63a81921b7f354e6f7387c51682ecf0ee12e60b7
 ]
 -src/main/java/org/example/banco/Cobrador.java,d\f\df1fb625f4b0ebc4049875f36a45b99b1469d771
-Z
-*src/main/java/org/example/banco/Banco.java,7\3\73a9206695f37bcae7cb9945ea37e0bc3925745e
 [
 +src/main/java/org/example/banco/Basico.java,d\d\dd27c4b9ce005e449d783d42f166894a9f14dfa0
 ^
@@ -100,3 +98,11 @@ a
 1src/main/java/org/example/fotocopiadora/Main.java,1\d\1d4e6a5c116f285f2bc200a7c053f9baf4efdfeb
 h
 8src/main/java/org/example/banco/TransaccionBancaria.java,4\8\48ec4dce09d742d71348af6da6aedcc44dc75b03
+d
+4src/main/java/org/example/banco/TransaccionNoOk.java,e\7\e7e59b41bec5fb0e015c534926ae9d51ff8d1f5f
+b
+2src/main/java/org/example/banco/TransaccionOk.java,b\e\be63a6fdabc89f7f3ce93f262f767e4bb6f901ad
+\
+,src/main/java/org/example/banco/Cliente.java,3\a\3a323fe5c020f7ef6b710910ba33bcb8dfac36cd
+`
+0src/main/java/org/example/banco/Transaccion.java,8\1\8125ddc8cec1c90853ce13f04b20cea11171fc08

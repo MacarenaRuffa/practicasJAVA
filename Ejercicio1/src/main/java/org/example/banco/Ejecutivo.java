@@ -1,21 +1,15 @@
 package org.example.banco;
 
-class Ejecutivo implements TransaccionBancaria {
-    @Override
-    public void transaccionOk() {
-        System.out.println("Transacción realizada correctamente.");
-    }
+class Ejecutivo extends Cliente {
 
-    @Override
-    public void transaccionNoOk() {
-        System.out.println("Transacción fallida.");
+    public Ejecutivo() {
     }
 
     public void deposito() {
-        System.out.println("Depósito realizado correctamente.");
+        System.out.println("Depositando dinero.");
     }
 
     public void transferencia() {
-        System.out.println("Transferencia realizada correctamente.");
+        System.out.println("Realizando transferencia.");
     }
 }

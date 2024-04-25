@@ -1,6 +1,10 @@
 package org.example.sonidosAnimales;
 
 class Gato extends Animal implements Carnivoro {
+
+    public Gato() {
+    }
+
     @Override
     void emitirSonido() {
         System.out.println("Miau");

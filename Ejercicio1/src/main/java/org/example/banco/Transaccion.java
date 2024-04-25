@@ -1,6 +1,6 @@
 package org.example.banco;
 
-interface TransaccionBancaria {
+interface Transaccion {
     void transaccionOk();
     void transaccionNoOk();
 }

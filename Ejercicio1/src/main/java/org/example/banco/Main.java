@@ -3,15 +3,15 @@ package org.example.banco;
 public class Main {
     public static void main(String[] args) {
         Ejecutivo ejecutivo = new Ejecutivo();
-        ejecutivo.deposito();
+        ejecutivo.transferencia();
         ejecutivo.transaccionOk();
 
         Basico basico = new Basico();
-        basico.consultaSaldo();
-        basico.transaccionNoOk();
+        basico.pagoServicios();
+        basico.transaccionOk();
 
         Cobrador cobrador = new Cobrador();
         cobrador.retiroEfectivo();
-        cobrador.transaccionOk();
+        cobrador.transaccionNoOk();
     }
 }

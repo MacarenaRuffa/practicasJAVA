@@ -6,8 +6,7 @@ class Informe extends Documento {
     private String revisor;
     private int cantidadPaginas;
 
-    public Informe(String id_documento) {
-        super(id_documento);
+    public Informe() {
     }
 
     public Informe(String id_documento, String contenido, String autor, String revisor, int cantidadPaginas) {
@@ -52,7 +51,7 @@ class Informe extends Documento {
 
     @Override
     public void imprimir() {
-        System.out.print("Contenido del Informe: ");
+        System.out.print("Contenido del informe: ");
         System.out.print(contenido);
     }
 }

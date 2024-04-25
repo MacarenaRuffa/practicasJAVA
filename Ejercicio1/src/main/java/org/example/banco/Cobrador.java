@@ -1,21 +1,15 @@
 package org.example.banco;
 
-class Cobrador implements TransaccionBancaria {
-    @Override
-    public void transaccionOk() {
-        System.out.println("Transacción realizada correctamente.");
-    }
+class Cobrador extends Cliente {
 
-    @Override
-    public void transaccionNoOk() {
-        System.out.println("Transacción fallida.");
+    public Cobrador() {
     }
 
     public void retiroEfectivo() {
-        System.out.println("Retiro de efectivo realizado correctamente.");
+        System.out.println("Retirando efectivo.");
     }
 
     public void consultaSaldo() {
-        System.out.println("Consulta de saldo realizada.");
+        System.out.println("Consultando el saldo.");
     }
 }
