@@ -1,0 +1,14 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¼ãË8¤ãÊ¨ñ1J$69e625b2-2f22-4cc5-8a81-5910daa9073e
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¼ãË8¥ãÊ¨ñ1J$ecafb160-e7aa-4ddf-b9fe-83da5a0fca08
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¼ãË8¥ãÊ¨ñ1J$c6b8d18b-1d0d-4a4f-9df0-18d1e41f229b
+“	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š°Åİ8¨‚‹ªñ1J$5db5ca85-990e-4ad7-b749-b6f5f9974f8c
+˜	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ş ûÿÿÿÿ8¨‚‹ªñ1J$c8830e1d-7ca9-4835-9b24-91059eaa3944
+•	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ8¬ãÊ¨ñ1J$f504224c-0505-4bc3-961d-47066d4cb04b
+	java:S116"[Rename this field "aÃ±osExperiencia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îè¾Ó8¬ãÊ¨ñ1J$dbd1ae8d-8ce6-4d33-970d-26371f3a83f5
+•	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÂÃÕùÿÿÿÿ8¶‚‹ªñ1J$a78ba68b-dbd1-43e7-8c0c-ad3a98118d4a
+•	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ş ûÿÿÿÿ8¶‚‹ªñ1J$2f765f5b-e421-488e-bd0a-3c68514cb650
+m	java:S1066"+Replace this use of System.out by a logger.(¨¨İ×8³ãÊ¨ñ1J$c394a168-c097-4924-9a44-11fddf8a1cab
+m	java:S1067"+Replace this use of System.out by a logger.(ËüÓû8´ãÊ¨ñ1J$4c17e209-7ea4-4aa6-afc0-f5c9b622f2ad
+r	java:S1068"+Replace this use of System.out by a logger.(Ê¾€†ûÿÿÿÿ8´ãÊ¨ñ1J$bffd6737-33f6-446a-b052-ba7f7887293a
+r	java:S1069"+Replace this use of System.out by a logger.(çé£Ğüÿÿÿÿ8µãÊ¨ñ1J$16636809-c573-49ea-87a7-f7ff2f8d1094

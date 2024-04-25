@@ -1,0 +1,12 @@
+
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôñùŞÿÿÿÿÿ8ãƒÊ¨ñ1J$85496e3f-7264-4361-bd14-ab4773cfb42c
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û Ğ™úÿÿÿÿ8ò§‰ªñ1J$fa979a9a-0c32-4115-8e15-d9a4d4027212
+˜	java:S116"WRename this field "id_documento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È·ÂE8éƒÊ¨ñ1J$b977d0fc-4872-4c9f-b9a1-c2f260fd7ee3
+|
+java:S5993"9Change the visibility of this constructor to "protected".(ı÷²™8ëƒÊ¨ñ1J$9ee4e8cd-86eb-4780-b3e6-c514f9fd85d9
+
+java:S5993	"9Change the visibility of this constructor to "protected".(ôñùŞÿÿÿÿÿ8¿‹‰ªñ1J$2054ed76-6d97-4525-ab68-4cc5d5692cee
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èé—–8ú§‰ªñ1J$e2c706ee-681f-4502-992b-ab0ec0d25290
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û Ğ™úÿÿÿÿ8ú§‰ªñ1J$ff7ff3fd-ebae-44ad-97d6-060093a4e04e
+y
+java:S3038"W"imprimir" is defined in the "Imprimible" interface and can be removed from this class.(òº‘ïûÿÿÿÿ8Öï¦ªñ1
