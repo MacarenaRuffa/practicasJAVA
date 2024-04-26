@@ -38,7 +38,7 @@ class Libro extends ArticuloBiblioteca implements Prestable {
         return "(\"Libro \" + getNombre() + \" devuelto correctamente.\")";
     }
 
-    // Implementación del método abstracto mostrarDetalles() para los libros
+    // Implementación del método abstracto
     @Override
     public String procedencia() {
         return "";

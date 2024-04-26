@@ -1,8 +1,6 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ïø¼‹J$609db67f-21f2-4b65-8acb-885d98b448e5
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ïø¼‹J$32546c6c-72a7-42a5-9286-6cb2059d9db8
 ¢
-java:S4165
-"aRemove this useless assignment; "dni" already holds the assigned value along all execution paths.(¾ïþßÿÿÿÿÿJ$3c3bb553-7ddf-4061-a0ef-2c20bdf2be2b
+java:S4165"aRemove this useless assignment; "dni" already holds the assigned value along all execution paths.(¾ïþßÿÿÿÿÿJ$49c32394-455c-4374-a576-636df3fcca53
 p
-java:S1656
-"/Remove or correct this useless self-assignment.(¾ïþßÿÿÿÿÿJ$231f6866-8446-4047-a652-284cf8c13797
+java:S1656"/Remove or correct this useless self-assignment.(¾ïþßÿÿÿÿÿJ$7aa6b8a2-b2a6-4cca-8e1d-9b91e560450a

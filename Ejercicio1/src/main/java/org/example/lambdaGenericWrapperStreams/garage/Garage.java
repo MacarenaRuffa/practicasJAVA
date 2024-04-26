@@ -6,6 +6,9 @@ class Garage {
     private int id;
     private List<Vehiculo> vehiculos;
 
+    public Garage() {
+    }
+
     public Garage(int id) {
         this.id = id;
         this.vehiculos = new ArrayList<>();

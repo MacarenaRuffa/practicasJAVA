@@ -19,10 +19,11 @@ creación de excepciones personalizadas.
 */
 
 package org.example.excepciones;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class AdivinarNum {
     public static void main(String[] args) {
         int numeroAdivinar = (int) (Math.random() * 500) + 1;
         int intentos = 0;
@@ -30,17 +31,14 @@ public class Main {
         System.out.println("Bienvenido al juego de adivinanza de números!");
         System.out.println(numeroAdivinar);
 
-        // Bucle principal del juego
         while (true) {
             System.out.print("Ingresa un número entre 1 y 500: ");
             try {
                 int numeroIngresado = scanner.nextInt();
                 intentos++;
-
                 if (numeroIngresado < 1 || numeroIngresado > 500) {
                     throw new NumeroFueraDeRangoException("El número ingresado está fuera del rango permitido.");
                 }
-
                 if (numeroIngresado == numeroAdivinar) {
                     System.out.println("¡Felicidades! Has adivinado el número " + numeroAdivinar + " en " + intentos + " intentos.");
                     break;
@@ -59,7 +57,6 @@ public class Main {
         scanner.close();
     }
 }
-
 // Excepción personalizada para números fuera de rango
 class NumeroFueraDeRangoException extends Exception {
     public NumeroFueraDeRangoException() {

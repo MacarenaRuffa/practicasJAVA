@@ -22,10 +22,8 @@ public class Main {
 
         perro.emitirSonido();
         perro.comerCarne();
-
         gato.emitirSonido();
         gato.comerCarne();
-
         vaca.emitirSonido();
         vaca.comerHierba();
 

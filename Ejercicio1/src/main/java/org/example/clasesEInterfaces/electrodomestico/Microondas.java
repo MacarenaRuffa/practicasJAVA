@@ -45,7 +45,7 @@ class Microondas extends Electrodomestico {
     // Métodos abstractos sobrescritos
     @Override
     public void aumentarStock() {
-        System.out.println("Incorporando nuevo microondas al stock: " + nombre);    }
+        System.out.println("Incorporando nuevo microondas al stock: " + nombre);}
 
     @Override
     public void descontarStock() {

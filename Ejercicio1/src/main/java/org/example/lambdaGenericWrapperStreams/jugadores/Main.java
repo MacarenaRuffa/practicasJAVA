@@ -27,7 +27,6 @@ public class Main {
         jugadores.stream()
                 .sorted(Comparator.comparing(Jugador::getNombre))
                 .forEach(jugador -> System.out.println(jugador.getNombre()));
-
         System.out.println();
 
         System.out.println("Lista ordenada por posiciones:");

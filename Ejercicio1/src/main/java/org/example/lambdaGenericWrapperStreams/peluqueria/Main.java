@@ -26,7 +26,6 @@ public class Main {
         System.out.println("ID: " + lavado.getId());
         System.out.println("Nombre: " + lavado.getNombre());
         System.out.println("Observación: " + lavado.getObservacion());
-
         System.out.println();
 
         System.out.println("Corte:");

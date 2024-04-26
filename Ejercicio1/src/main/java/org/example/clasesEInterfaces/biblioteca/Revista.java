@@ -39,7 +39,7 @@ class Revista extends ArticuloBiblioteca implements NoPrestable {
         return ("Revista " + getNombre() + " devuelta en la biblioteca.");
     }
 
-    // Implementación del método abstracto mostrarDetalles() para las revistas
+    // Implementación del método abstracto
     @Override
     public String procedencia() {
         return "";

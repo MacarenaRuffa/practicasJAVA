@@ -16,9 +16,6 @@ Por ejemplo: System.out.println(“Vendiendo Microondas”).
 
 package org.example.clasesEInterfaces.electrodomestico;
 
-import org.example.clasesEInterfaces.electrodomesticos.Microondas;
-import org.example.clasesEInterfaces.electrodomesticos.PavaElectrica;
-
 public class Main {
     public static void main(String[] args) {
         // Crear objetos de cada clase hija

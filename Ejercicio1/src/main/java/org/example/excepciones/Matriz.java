@@ -63,7 +63,6 @@ public class Matriz {
                 System.out.println("Error: Ya se ha realizado una operación en esta posición del vector.");
                 continue; // Volver a pedir al usuario que ingrese una operación válida
             }
-
             try {
                 resultados[tipoOperacion] = realizarOperacion(tipoOperacion, matriz);
                 operacionRealizada[tipoOperacion] = true; // Marcar la operación como realizada

@@ -42,8 +42,6 @@ public class Main {
                 otros++;
             }
         }
-
-        // Mostramos los resultados
         System.out.println("Perros ganadores: " + perros);
         System.out.println("Gatos ganadores: " + gatos);
         System.out.println("Otros: " + otros);

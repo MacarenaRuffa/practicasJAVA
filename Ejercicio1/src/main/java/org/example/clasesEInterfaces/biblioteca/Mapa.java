@@ -39,7 +39,7 @@ class Mapa extends ArticuloBiblioteca implements NoPrestable {
         return ("Mapa " + getNombre() + " devuelto en la biblioteca.");
     }
 
-    // Implementación del método abstracto mostrarDetalles() para los mapas
+    // Implementación del método abstracto
     @Override
     public String procedencia() {
         return "";

@@ -5,6 +5,8 @@ class Vehiculo {
     private String marca;
     private double costo;
 
+    public Vehiculo() {}
+
     public Vehiculo(String modelo, String marca, double costo) {
         this.modelo = modelo;
         this.marca = marca;
