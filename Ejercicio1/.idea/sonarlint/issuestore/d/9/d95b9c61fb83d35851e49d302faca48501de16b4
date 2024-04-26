@@ -1,0 +1,6 @@
+
+b
+java:S2095)"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(×äüÍ
+@	java:S106+"+Replace this use of System.out by a logger.(Æ¼Ø°
+@	java:S106/"+Replace this use of System.out by a logger.(Öš“¸
+@	java:S1061"+Replace this use of System.out by a logger.(Ì×²ñ
