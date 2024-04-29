@@ -1,20 +1,0 @@
-
-l	java:S127*"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÊ“‹
-E	java:S106"+Replace this use of System.out by a logger.(‘¿ªØÿÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.( Ø™ƒüÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(éİÌâüÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(Èä¡‰ÿÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(È¯Éï
-@	java:S106"+Replace this use of System.out by a logger.(Ê®ØÛ
-E	java:S106"+Replace this use of System.out by a logger.(´¦şşÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(Ò’¼ÿ
-E	java:S106 "+Replace this use of System.out by a logger.(‚ñüÊúÿÿÿÿ
-@	java:S106""+Replace this use of System.out by a logger.(¸©£×
-E	java:S106$"+Replace this use of System.out by a logger.(Œ‡îÿøÿÿÿÿ
-@	java:S106("+Replace this use of System.out by a logger.(ó—ë—
-E	java:S1065"+Replace this use of System.out by a logger.(È®şìÿÿÿÿÿ
-@	java:S1069"+Replace this use of System.out by a logger.(Û•³»
-@	java:S106;"+Replace this use of System.out by a logger.(ÏÑÛ°
-@	java:S106@"+Replace this use of System.out by a logger.(±—Ãœ
-@	java:S106C"+Replace this use of System.out by a logger.(Ñ©Ôò

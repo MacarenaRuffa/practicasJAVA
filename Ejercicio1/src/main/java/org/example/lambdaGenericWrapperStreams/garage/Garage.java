@@ -3,13 +3,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Garage {
-    private int id;
+    private Integer id;
     private List<Vehiculo> vehiculos;
 
     public Garage() {
     }
 
-    public Garage(int id) {
+    public Garage(Integer id) {
         this.id = id;
         this.vehiculos = new ArrayList<>();
     }
@@ -18,7 +18,7 @@ class Garage {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

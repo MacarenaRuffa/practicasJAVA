@@ -3,11 +3,11 @@ package org.example.lambdaGenericWrapperStreams.garage;
 class Vehiculo {
     private String modelo;
     private String marca;
-    private double costo;
+    private Integer costo; // porque stream y lambda solo usan tipo de dato Wrapper
 
     public Vehiculo() {}
 
-    public Vehiculo(String modelo, String marca, double costo) {
+    public Vehiculo(String modelo, String marca, Integer costo) {
         this.modelo = modelo;
         this.marca = marca;
         this.costo = costo;
@@ -33,7 +33,16 @@ class Vehiculo {
         return costo;
     }
 
-    public void setCosto(double costo) {
+    public void setCosto(Integer costo) {
         this.costo = costo;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "modelo='" + modelo + '\'' +
+                ", marca='" + marca + '\'' +
+                ", costo=" + costo +
+                '}';
     }
 }

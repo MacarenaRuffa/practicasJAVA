@@ -14,6 +14,7 @@ mayor o igual 1000 y por último, obtén el promedio total de precios de toda la
 package org.example.lambdaGenericWrapperStreams.garage;
 
 import java.util.Comparator;
+
 public class Main {
     public static void main(String[] args) {
         Garage garage = new Garage(1);
@@ -32,33 +33,44 @@ public class Main {
         // Ejercicio 3
         System.out.println("Lista de vehículos ordenados por precio de menor a mayor:");
         garage.getVehiculos().stream()
-                .sorted(Comparator.comparingDouble(Vehiculo::getCosto))
+                .sorted(Comparator.comparing(Vehiculo::getCosto)) //de todos los elementos (::) de vehiculo trae el costo y lo ordena
                 .forEach(vehiculo -> System.out.println(vehiculo.getMarca() + " " + vehiculo.getModelo() + " - Precio: $" + vehiculo.getCosto()));
 
         // Ejercicio 4
         System.out.println("\nLista de vehículos ordenados por marca y precio:");
         garage.getVehiculos().stream()
-                .sorted(Comparator.comparing(Vehiculo::getMarca).thenComparing(Vehiculo::getCosto))
+                .sorted(Comparator.comparing(Vehiculo::getMarca).thenComparing(Vehiculo::getCosto))//se coloca el tipo en .comparing cuando queres guardarlo en un mapa
                 .forEach(vehiculo -> System.out.println(vehiculo.getMarca() + " " + vehiculo.getModelo() + " - Precio: $" + vehiculo.getCosto()));
 
         // Ejercicio 5
         System.out.println("\nLista de vehículos con precio no mayor a 1000:");
-        garage.getVehiculos().stream()
-                .filter(vehiculo -> vehiculo.getCosto() <= 1000)
-                .forEach(vehiculo -> System.out.println(vehiculo.getMarca() + " " + vehiculo.getModelo() + " - Precio: $" + vehiculo.getCosto()));
+        var listaMenorMil = garage.getVehiculos().stream()
+                .filter(vehiculo -> vehiculo.getCosto() <= 1000).toList();
+        listaMenorMil.forEach(vehiculo -> System.out.println(vehiculo.getMarca() + " " + vehiculo.getModelo() + " - Precio: $" + vehiculo.getCosto()));
 
         System.out.println("\nLista de vehículos con precio mayor o igual a 1000:");
-        garage.getVehiculos().stream()
-                .filter(vehiculo -> vehiculo.getCosto() >= 1000)
-                .forEach(vehiculo -> System.out.println(vehiculo.getMarca() + " " + vehiculo.getModelo() + " - Precio: $" + vehiculo.getCosto()));
+        var listaMayorMil = garage.getVehiculos().stream()
+                .filter(vehiculo -> vehiculo.getCosto() >= 1000).toList();
+        listaMayorMil.forEach(vehiculo -> System.out.println(vehiculo.getMarca() + " " + vehiculo.getModelo() + " - Precio: $" + vehiculo.getCosto()));
 
         double promedioPrecios = garage.getVehiculos().stream()
                 .mapToDouble(Vehiculo::getCosto)
                 .average()
-                .orElse(0);
+                .getAsDouble();
 
         // Formatear el promedio a dos decimales
         String promedioFormateado = String.format("%.2f", promedioPrecios);
         System.out.println("\nPromedio de precios de todos los vehículos: $" + promedioFormateado);
+
+        //Excepcion
+        System.out.println("Lista de vehiculos con marca Dodge:");
+        try {
+        garage.getVehiculos().stream()
+                .filter(vehiculo -> vehiculo.getMarca().equals("Dodge"))
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("No se encontraron vehiculos con marca Dodge"));
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
