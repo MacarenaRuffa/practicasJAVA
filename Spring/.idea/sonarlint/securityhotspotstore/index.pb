@@ -47,3 +47,9 @@ Rsrc/main/java/com/example/Spring/calcuM2/service/service/PropiedadServiceImpl.j
 Tsrc/main/java/com/example/Spring/calcuM2/service/controller/PropiedadController.java,e\9\e9fdfea1685c43fc5ab56536deb38b4cea76142c
 j
 :src/main/java/com/example/Spring/calcuM2/service/Main.java,9\5\9568f7d08a8eec125d5db34151743f29c0153555
+l
+<src/main/java/com/example/Spring/certificado/dto/Alumno.java,f\7\f7681e1c4926b36629100ec91264af69e6d87d35
+o
+?src/main/java/com/example/Spring/certificado/dto/AlumnoDTO.java,b\d\bda7b41738fb38cc156be380dd8f501e052f262d
+v
+Fsrc/main/java/com/example/Spring/certificado/dto/AlumnoDiplomaDTO.java,a\c\ac3db9545f50c1bdf8e42f37ecc17f64db91e3b1

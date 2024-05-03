@@ -1,19 +1,19 @@
 package com.example.Spring.certificado.service;
 
-import com.example.Spring.certificado.model.Alumno;
+import com.example.Spring.certificado.dto.AlumnoDTO;
 import com.example.Spring.certificado.model.Diploma;
 import org.springframework.stereotype.Service;
 
 @Service
 public class AlumnoServiceImpl implements AlumnoService {
 
-    @Override
-    public Diploma calcularPromedio(Alumno alumno) {
-        String nombre = alumno.getNombre();
-        String apellido = alumno.getApellido();
-        double[] calificaciones = alumno.getCalificaciones();
+    public Diploma calcularPromedio(AlumnoDTO alumnoDTO) {
+        String nombre = alumnoDTO.getNombre();
+        String apellido = alumnoDTO.getApellido();
+        double[] calificaciones = alumnoDTO.getCalificaciones();
 
-        double promedio = calcularPromedio(calificaciones);
+        double promedio = calcularPromedio(alumnoDTO.getCalificaciones());
+        promedio = Math.round(promedio * 100.0) / 100.0; // Redondea el promedio a dos decimales
 
         String mensaje = generarMensaje(nombre, apellido, promedio);
         return new Diploma(nombre, promedio, mensaje);
