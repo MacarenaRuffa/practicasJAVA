@@ -3,40 +3,40 @@ package com.example.Spring.calcuM2.service.model;
 import java.util.List;
 
 public class Propiedad {
-    private String name;
-    private String address;
-    private List<Habitacion> rooms;
+    private String nombre;
+    private String direccion;
+    private List<Habitacion> habitaciones;
 
     public Propiedad() {
     }
 
-    public Propiedad(String name, String address, List<Habitacion> rooms) {
-        this.name = name;
-        this.address = address;
-        this.rooms = rooms;
+    public Propiedad(String nombre, String direccion, List<Habitacion> habitaciones) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.habitaciones = habitaciones;
     }
 
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getAddress() {
-        return address;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
-    public List<Habitacion> getRooms() {
-        return rooms;
+    public List<Habitacion> getHabitaciones() {
+        return habitaciones;
     }
 
-    public void setRooms(List<Habitacion> rooms) {
-        this.rooms = rooms;
+    public void setHabitaciones(List<Habitacion> habitaciones) {
+        this.habitaciones = habitaciones;
     }
 }

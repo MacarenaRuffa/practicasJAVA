@@ -2,12 +2,11 @@ package com.example.Spring.calcuM2.service.service;
 
 import com.example.Spring.calcuM2.service.model.Habitacion;
 import com.example.Spring.calcuM2.service.model.Propiedad;
-
 import java.util.Map;
 
 public interface PropiedadService {
-    double calculateTotalArea(Propiedad property);
-    double calculatePropertyValue(Propiedad property);
-    Habitacion getLargestRoom(Propiedad property);
-    Map<String, Double> calculateAreaPerRoom(Propiedad property);
+    double calcularArea(Propiedad propiedad);
+    double calcularValor(Propiedad propiedad);
+    Habitacion habMasGrande(Propiedad propiedad);
+    Map<String, Double> calcularAreaPorHabitacion(Propiedad propiedad);
 }

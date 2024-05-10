@@ -1,34 +1,34 @@
 package com.example.Spring.calcuM2.service.model;
 
 public class Habitacion {
-    private String name;
-    private double width;
-    private double length;
+    private String nombre;
+    private double ancho;
+    private double largo;
 
     public Habitacion() {
     }
 
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public double getWidth() {
-        return width;
+    public double getAncho() {
+        return ancho;
     }
 
-    public void setWidth(double width) {
-        this.width = width;
+    public void setAncho(double ancho) {
+        this.ancho = ancho;
     }
 
-    public double getLength() {
-        return length;
+    public double getLargo() {
+        return largo;
     }
 
-    public void setLength(double length) {
-        this.length = length;
+    public void setLargo(double largo) {
+        this.largo = largo;
     }
 }
